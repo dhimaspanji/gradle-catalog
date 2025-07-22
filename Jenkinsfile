@@ -14,7 +14,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/dhimaspanji/foundation-catalog.git'
+                git 'https://github.com/dhimaspanji/gradle-catalog.git'
             }
         }
 
