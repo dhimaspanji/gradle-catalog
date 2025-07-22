@@ -7,15 +7,14 @@ pipeline {
     }
 
     tools {
-        gradle 'gradle-8' // Sesuaikan dengan Gradle version di Jenkins Global Tools
-        jdk 'jdk17'       // Sesuaikan juga Java-nya
+        gradle 'gradle-8'
+        jdk 'jdk17'
     }
 
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main',
-                git 'https://github.com/dhimaspanji/gradle-catalog.git'
+                git branch: 'main', url: 'https://github.com/dhimaspanji/gradle-catalog.git'
             }
         }
 
