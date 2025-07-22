@@ -20,6 +20,7 @@ pipeline {
 
         stage('Publish to Nexus') {
             steps {
+                sh 'chmod +x ./gradlew'
                 sh './gradlew publish'
             }
         }
