@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class GradleCatalogApplication {
 
 	public static void main(String[] args) {
-		System.out.println("FOR TRIGGER PIPELINE OTHER BRANCH TEST2");
+		System.out.println("FOR TRIGGER PIPELINE OTHER BRANCH TEST TEST");
 		SpringApplication.run(GradleCatalogApplication.class, args);
 	}
 
