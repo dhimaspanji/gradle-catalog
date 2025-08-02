@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class GradleCatalogApplication {
 
 	public static void main(String[] args) {
+		System.out.println("TEST TRIGGER PIPELINE PULL REQUEST");
 		SpringApplication.run(GradleCatalogApplication.class, args);
 	}
 
