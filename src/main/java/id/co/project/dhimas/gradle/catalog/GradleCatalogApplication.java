@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class GradleCatalogApplication {
 
 	public static void main(String[] args) {
-		System.out.println("TEST DISABLED BUTTON MERGE BEFORE PIPELINE SUCCESS - 8");
+		System.out.println("TEST DISABLED BUTTON MERGE BEFORE PIPELINE SUCCESS - 9");
 		SpringApplication.run(GradleCatalogApplication.class, args);
 	}
 
